@@ -7,10 +7,11 @@ $size6: 1em;
 
 ion-content {
   --ion-font-family: "Roboto", sans-serif;
+  font-size: 15px;
 }
 
 ion-header {
-  --ion-text-color: white;
+  --ion-text-color: #555;
 }
 
 ion-content {
@@ -34,4 +35,51 @@ ion-content {
   display: block;
   font-size: $size5;
   font-weight: bold;
+}
+
+.description {
+  display: block;
+  font-size: $size3;
+  font-weight: bold;
+}
+
+.temperature {
+  display: block;
+  font-size: $size1;
+  padding: 0px;
+  margin: 0px;
+}
+
+.icon {
+  display: block;
+  font-size: $size4;
+  padding-top: 0px;
+}
+
+icon-grid {
+  text-align: center;
+  position: fixed;
+  bottom: 0%;
+  margin: auto;
+}
+
+.day {
+  display: block;
+  font-weight: bold;
+}
+
+.precipitation {
+  display: block;
+}
+
+.icon-dm {
+  display: block;
+}
+
+.high-dm {
+  display: block;
+}
+
+.low-dm {
+  display: block;
 }
