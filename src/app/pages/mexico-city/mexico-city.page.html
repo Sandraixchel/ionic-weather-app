@@ -2,6 +2,12 @@
   <ion-toolbar>
     <ion-title> Find your Weather </ion-title>
   </ion-toolbar>
+  <ion-toolbar>
+    <ion-title>Back to Cities</ion-title>
+    <ion-buttons slot="end">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
@@ -13,8 +19,8 @@
       <img src="../../assets/cloud.png" alt="" />
     </div>
 
-    <span class="description">Cloudy</span>
-    <span class="temperature">18°</span>
+    <span class="description">Mostly Sunny</span>
+    <span class="temperature">19°</span>
   </div>
   <!--7 Day forecast grid-->
   <ion-grid>

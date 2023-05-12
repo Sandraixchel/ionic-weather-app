@@ -2,11 +2,17 @@
   <ion-toolbar>
     <ion-title> Find your Weather </ion-title>
   </ion-toolbar>
+  <ion-toolbar>
+    <ion-title>Back to Cities</ion-title>
+    <ion-buttons slot="end">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <div class="main">
-    <span class="city">Dublin 🌦️</span>
+    <span class="city">Dublin 🌧️</span>
     <span class="date">Mon, 9:50pm</span>
 
     <div class="icon">
@@ -14,7 +20,7 @@
     </div>
 
     <span class="description">Cloudy</span>
-    <span class="temperature">18°</span>
+    <span class="temperature">10°</span>
   </div>
   <!--7 Day forecast grid-->
   <ion-grid>
@@ -31,10 +37,10 @@
     <!--Changes of precipitation-->
     <ion-row>
       <ion-col class="precipitation">70%</ion-col>
-      <ion-col class="precipitation">-</ion-col>
+      <ion-col class="precipitation">60%</ion-col>
       <ion-col class="precipitation">50%</ion-col>
-      <ion-col class="precipitation">-</ion-col>
-      <ion-col class="precipitation">-</ion-col>
+      <ion-col class="precipitation">60%</ion-col>
+      <ion-col class="precipitation">40%</ion-col>
       <ion-col class="precipitation">19%</ion-col>
       <ion-col class="precipitation">35%</ion-col>
     </ion-row>

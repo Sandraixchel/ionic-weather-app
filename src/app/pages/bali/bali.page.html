@@ -2,6 +2,12 @@
   <ion-toolbar>
     <ion-title> Find your Weather </ion-title>
   </ion-toolbar>
+  <ion-toolbar>
+    <ion-title>Back to Cities</ion-title>
+    <ion-buttons slot="end">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
@@ -13,7 +19,7 @@
       <img src="../../assets/cloud.png" alt="" />
     </div>
 
-    <span class="description">Mostly Sunny</span>
+    <span class="description">Sunny</span>
     <span class="temperature">25°</span>
   </div>
   <!--7 Day forecast grid-->
@@ -30,13 +36,13 @@
     </ion-row>
     <!--Changes of precipitation-->
     <ion-row>
-      <ion-col class="precipitation">70%</ion-col>
-      <ion-col class="precipitation">-</ion-col>
+      <ion-col class="precipitation">40%</ion-col>
+      <ion-col class="precipitation">30%</ion-col>
       <ion-col class="precipitation">50%</ion-col>
       <ion-col class="precipitation">-</ion-col>
       <ion-col class="precipitation">-</ion-col>
-      <ion-col class="precipitation">19%</ion-col>
-      <ion-col class="precipitation">35%</ion-col>
+      <ion-col class="precipitation">20%</ion-col>
+      <ion-col class="precipitation">30%</ion-col>
     </ion-row>
     <!-- Weather Icon-->
     <ion-row>
