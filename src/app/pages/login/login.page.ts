@@ -17,6 +17,6 @@ export class LoginPage implements OnInit {
         userName: 'Conor',
       },
     };
-    this.router.navigate(['/home'], navigationExtras);
+    this.router.navigate(['/select-city'], navigationExtras);
   }
 }

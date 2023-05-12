@@ -12,11 +12,7 @@ const routes: Routes = [
     redirectTo: 'login',
     pathMatch: 'full',
   },
-  {
-    path: 'loader',
-    loadChildren: () =>
-      import('./pages/loader/loader.module').then((m) => m.LoaderPageModule),
-  },
+
   {
     path: 'login',
     loadChildren: () =>
@@ -35,6 +31,14 @@ const routes: Routes = [
       import('./pages/select-city/select-city.module').then(
         (m) => m.SelectCityPageModule
       ),
+  },
+  {
+    path: 'bali',
+    loadChildren: () => import('./pages/bali/bali.module').then( m => m.BaliPageModule)
+  },
+  {
+    path: 'mexico-city',
+    loadChildren: () => import('./pages/mexico-city/mexico-city.module').then( m => m.MexicoCityPageModule)
   },
 ];
 

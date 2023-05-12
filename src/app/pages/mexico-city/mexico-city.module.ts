@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { LoaderPageRoutingModule } from './loader-routing.module';
+import { MexicoCityPageRoutingModule } from './mexico-city-routing.module';
 
-import { LoaderPage } from './loader.page';
+import { MexicoCityPage } from './mexico-city.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    LoaderPageRoutingModule
+    MexicoCityPageRoutingModule
   ],
-  declarations: [LoaderPage]
+  declarations: [MexicoCityPage]
 })
-export class LoaderPageModule {}
+export class MexicoCityPageModule {}

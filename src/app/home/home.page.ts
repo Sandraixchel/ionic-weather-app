@@ -10,10 +10,10 @@ import { Router } from '@angular/router';
 export class HomePage {
   constructor(private router: Router) {
     //@ts-ignore
-    if (router.getCurrentNavigation().extras.queryParams.userName) {
-      //@ts-ignore
-      alert(router.getCurrentNavigation().extras.queryParams.userName);
-    }
+    // if (router.getCurrentNavigation().extras.queryParams.userName) {
+    //   //@ts-ignore
+    //   alert(router.getCurrentNavigation().extras.queryParams.userName);
+    // }
   }
   //private res: any;
   // constructor(private weatherAPI: WeatherService) {}

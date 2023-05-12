@@ -1,13 +1,22 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>selectCity</ion-title>
+    <ion-title>Hello there!</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">selectCity</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Select your City</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  <ion-button color="secondary" size="full" [routerLink]="['/mexico-city']"
+    >Mexico City</ion-button
+  >
+  <ion-button color="secondary" size="full" [routerLink]="['/home']"
+    >Dublin</ion-button
+  >
+  <ion-button color="secondary" size="full" [routerLink]="['/bali']"
+    >Bali</ion-button
+  >
 </ion-content>
